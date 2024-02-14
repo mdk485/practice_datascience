@@ -1,0 +1,117 @@
+This is my personal notes of git
+----------------------------------
+git version -- > to find the version
+
+repository --> A storage space where we can store the projects
+
+where repository lives in ?
+
+
+local host ---> laptop or desktop
+
+online host ---> cloud
+
+git ---> on premise
+
+git hub similar to git lab
+
+my git ---> user :mdk485,psw : Kishore@485
+
+configuration of git to github
+
+git config
+
+--global
+--system
+--local
+
+git config --global -e
+
+to see the file
+
+config to git
+
+git config user.name "kishore"
+for giving the user name
+
+git config user.email "mdundikanakakishorereddy@gmail.com"
+
+git config --global --list
+
+it give list of configuration
+
+git help
+
+eg : git help config 
+
+it will help to give the details of the config like syntax
+
+configure notepad++ with git
+
+for creating alis name
+
+--- notepad++ .bash_profile
+if there is no name like .bash profile
+create it
+in .bash_profile name 
+alias npp="notepad++.exe -multiInst -nosession"
+save and try
+here we are changing the notepad++ name to npp
+
+
+--- for making notepad++ as default editor 
+ git config --global core.editor "notepad++.exe -multiInst -nosession"
+ 
+ terms
+ 
+ commit
+ clone
+ tracking/untracking
+ git work flow
+ local & remote
+ local --> working directory,staging area(index area),repository .git folder
+ remote ---> git hub
+ 
+ working directory(a)--->(add)-->staging area---(commit)-->local repository.git folder(local repository)---(push)-->github(remote repository)
+
+
+when ever get the project from  server the default server name ----> origin
+
+when we clone the project from repository default branch we get is master branch
+
+--git status
+
+cloning the data
+
+-- git clone <repo-url>
+
+-- git clone <repo-url> name
+
+-- git  add file name (changes of the file)(for add to commit changes here it will go staging area)
+
+-- git commit -m "fixed two tasks"
+
+-- git push origin master
+
+-- git ls (list of file or folder)
+-- git ls -al (list of file or folder including hidden files or folders)
+
+-- 
+
+
+
+.git is the folder automatically created while cloning the repository.
+- it will track the file 
+
+
+
+-- for moving the directory from local system to git hub repository
+local project
+-- git init (for initializing)
+-- git add (adding the files for commit)
+-- git commit (for committing the files)
+-- git remote add origin <repo url> (establish the connection btw local to git)
+-- git push origin master (push the code to git)
+
+
+
